@@ -64,22 +64,26 @@ Bold and Italic
     Example :
             > Dorothy followed her through many of the beautiful rooms in her castle.
 
-    Blockquotes with Multiple Paragraphs :
+Blockquotes with Multiple Paragraphs :
+
     Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs
     Example :
             > Dorothy followed her through many of the beautiful rooms in her castle.
             >
             > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-    Nested Blockquotes : 
+Nested Blockquotes : 
+
     Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
     Example :
             > Dorothy followed her through many of the beautiful rooms in her castle.
             >
             >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-    Blockquotes with Other Elements :
-    Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
+Blockquotes with Other Elements :
+
+    Blockquotes can contain other Markdown formatted elements. 
+    Not all elements can be used — you’ll need to experiment to see which ones work.
     Example : 
             > #### The quarterly results look great!
             >
