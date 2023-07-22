@@ -275,10 +275,4 @@ Linking Images
     Example :
             This **word** is bold. This <em>word</em> is italic.
 
-            
-# Emphasis
-
-
-![img](./img1.jpg)
-
 
