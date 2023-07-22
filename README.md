@@ -8,6 +8,9 @@
 * [Code Blocks](#code)
 * [Horizontal Rules](#horizontal-rules)
 * [Links](#links)
+* [Images](#images)
+* [Escaping Characters](#escaping-characters)
+* [HTML](#html)
 
 Headings
 ==========
@@ -164,7 +167,7 @@ Nest an unordered list in an ordered list
         - Indented item
     4. Fourth item
 
-## Code
+# Code
 
     To denote a word or phrase as code, enclose it in backticks (`).
     Exmaple :
@@ -186,7 +189,7 @@ Code Blocks
           </head>
         </html>
 
-## Horizontal Rules
+# Horizontal Rules
 
     To create a horizontal rule, use three or more asterisks (***), dashes (---), 
     or underscores (___) on a line by themselves.
@@ -195,7 +198,7 @@ Code Blocks
             ---
             _________________
 
-## Links
+# Links
 
     To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) 
     and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
@@ -225,9 +228,55 @@ Formatting Links
             I love supporting the **[EFF](https://eff.org)**.
             This is the *[Markdown Guide](https://www.markdownguide.org)*.
             See the section on [`code`](#code).
+            
+Reference-style Links
+
+    Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. 
+    Reference-style links are constructed in two parts: the part you keep inline with your text 
+    and the part you store somewhere else in the file to keep the text easy to read.
+    Example :
+            In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+            of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+            eat: it was a [hobbit-hole][1], and that means comfort.
+
+            [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+
+# Images
+
+    To add an image, add an exclamation mark (!), followed by alt text in brackets, 
+    and the path or URL to the image asset in parentheses. 
+    You can optionally add a title in quotation marks after the path or URL.
+    Example :
+            ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
+Linking Images
+
+    To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+    Example :
+            [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com)
 
 
+# Escaping Characters
+    
+    To display a literal character that would otherwise be used to format text in a Markdown document, 
+    add a backslash (\) in front of the character.
+    Exampele :
+            \* Without the backslash, this would be a bullet in an unordered list.
 
+
+# HTML
+
+    Many Markdown applications allow you to use HTML tags in Markdown-formatted text. 
+    This is helpful if you prefer certain HTML tags to Markdown syntax. For example, 
+    some people find it easier to use HTML tags for images. 
+    Using HTML is also helpful when you need to change the attributes of an element, 
+    like specifying the color of text or changing the width of an image.
+    To use HTML, place the tags in the text of your Markdown-formatted file.
+    Example :
+            This **word** is bold. This <em>word</em> is italic.
+
+            
+# Emphasis
 
 
 ![img](./img1.jpg)
