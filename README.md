@@ -1,11 +1,13 @@
 # Markdown Syntax
+
 * Headings
 * Paragraphs
 * Line Breaks
 * Emphasis ( Bold and Italic )
 * Lists
 * Code Blocks
-* Images
+* Horizontal Rules
+* [Links](#links)
 
 Headings
 ==========
@@ -129,7 +131,7 @@ Starting Unordered List Items With Numbers
             - 1968\. A great year!
             - I think 1969 was second best.
 
-Code Blocks
+Code Blocks in list
 
     Code blocks are normally indented four spaces or one tab. 
     When they’re in a list, indent them eight spaces or two tabs.
@@ -144,7 +146,7 @@ Code Blocks
 
             3. Update the title to match the name of your website.
 
-Images 
+Images in list
 
     1. Open the file containing the Linux mascot.
     2. Marvel at its beauty.
@@ -162,7 +164,72 @@ Nest an unordered list in an ordered list
         - Indented item
     4. Fourth item
 
+## Code
+
+    To denote a word or phrase as code, enclose it in backticks (`).
+    Exmaple :
+            At the command prompt, type `nano`.
+            
+Escaping Backticks
+
+    If the word or phrase you want to denote as code includes one or more backticks, 
+    you can escape it by enclosing the word or phrase in double backticks (``).
+    Example :
+            ``Use `code` in your Markdown file.``
+
+Code Blocks
     
+    To create code blocks, indent every line of the block by at least four spaces or one tab.
+        
+        <html>
+          <head>
+          </head>
+        </html>
+
+## Horizontal Rules
+
+    To create a horizontal rule, use three or more asterisks (***), dashes (---), 
+    or underscores (___) on a line by themselves.
+    Example :
+            ***
+            ---
+            _________________
+
+## Links
+
+    To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) 
+    and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
+    Example :
+            My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+
+Adding Titles
+    
+    You can optionally add a title for a link. 
+    This will appear as a tooltip when the user hovers over the link. 
+    To add a title, enclose it in quotation marks after the URL.
+    Example :
+            My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy")
+
+URLs and Email Addresses
+    
+    To quickly turn a URL or email address into a link, enclose it in angle brackets.
+    Example :
+            <https://www.markdownguide.org>
+            <fake@example.com>
+
+Formatting Links
+
+    To emphasize links, add asterisks before and after the brackets and parentheses. 
+    To denote links as code, add backticks in the brackets.
+    Example :
+            I love supporting the **[EFF](https://eff.org)**.
+            This is the *[Markdown Guide](https://www.markdownguide.org)*.
+            See the section on [`code`](#code).
+
+
+
+
+
 ![img](./img1.jpg)
 
 
