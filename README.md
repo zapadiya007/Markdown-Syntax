@@ -4,6 +4,8 @@
 * Line Breaks
 * Emphasis ( Bold and Italic )
 * Lists
+* Code Blocks
+* Images
 
 Headings
 ==========
@@ -99,10 +101,68 @@ Ordered Lists :
 
     To create an ordered list, add line items with numbers followed by periods. 
     The numbers don’t have to be in numerical order, but the list should start with the number one.
+    Example :
+            1. First item
+            2. Second item
+            3. Third item
+                1. Indented item
+                2. Indented item
+            4. Fourth item
+
+Unordered Lists
+        
+    To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. 
+    Indent one or more items to create a nested list.
+    Example :
+            - First item
+            - Second item
+            - Third item
+                - Indented item
+                - Indented item
+            - Fourth item
+
+Starting Unordered List Items With Numbers
     
+    If you need to start an unordered list item with a number followed by a period, 
+    you can use a backslash (\) to escape the period.
+    Example :
+            - 1968\. A great year!
+            - I think 1969 was second best.
 
+Code Blocks
 
+    Code blocks are normally indented four spaces or one tab. 
+    When they’re in a list, indent them eight spaces or two tabs.
+    Example :
+            1. Open the file.
+            2. Find the following code block on line 21:
 
+                <html>
+                  <head>
+                    <title>Test</title>
+                  </head>
 
+            3. Update the title to match the name of your website.
+
+Images 
+
+    1. Open the file containing the Linux mascot.
+    2. Marvel at its beauty.
+
+        ![Tux, the Linux mascot](/assets/images/tux.png)
+
+    3. Close the file.
+
+Nest an unordered list in an ordered list
+
+    1. First item
+    2. Second item
+    3. Third item
+        - Indented item
+        - Indented item
+    4. Fourth item
+
+    
+![img](./img1.jpg)
 
 
