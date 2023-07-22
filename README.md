@@ -1,12 +1,12 @@
 # Markdown Syntax
 
-* Headings
-* Paragraphs
-* Line Breaks
-* Emphasis ( Bold and Italic )
-* Lists
-* Code Blocks
-* Horizontal Rules
+* [Headings](#headings)
+* [Paragraphs](#paragraphs)
+* [Line Breaks](#line-breaks)
+* [Emphasis ( Bold and Italic )](#emphasis)
+* [Lists](#lists)
+* [Code Blocks](#code)
+* [Horizontal Rules](#horizontal-rules)
 * [Links](#links)
 
 Headings
